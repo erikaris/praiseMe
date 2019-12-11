@@ -4,10 +4,12 @@
 \alias{praise}
 \title{praise}
 \usage{
-praise(name = "asdf")
+praise(name = "default", punctuation = "!")
 }
 \arguments{
 \item{name}{Name of person you want to praise}
+
+\item{punctuation}{the punctuation after the name}
 }
 \value{
 text string
